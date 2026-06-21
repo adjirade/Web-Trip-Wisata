@@ -1,0 +1,42 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparansi latar belakang */
+    border: 2px solid rgba(0, 0, 0, 0.2); /* Outline dengan transparansi */
+    border-radius: 8px; /* Radius sudut */
+    padding: 0.5rem 1rem; /* Ruang di sekitar konten navbar */
+}
+
+.navbar-brand img {
+    max-height: 30px; /* Sesuaikan jika perlu */
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparansi latar belakang */
+    color: #000; /* Warna teks */
+    border: 2px solid rgba(0, 0, 0, 0.2); /* Outline dengan transparansi */
+    border-radius: 8px; /* Radius sudut */
+    padding: 1rem; /* Ruang di sekitar konten footer */
+    margin-top: 1rem; /* Jarak atas dari konten sebelumnya */
+}
+/* CSS untuk media sosial */
+.btn-outline-dark {
+    border-color: #333;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-dark:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.btn-outline-dark i {
+    margin-right: 0.5rem;
+}
